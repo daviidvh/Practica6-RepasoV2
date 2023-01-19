@@ -29,14 +29,13 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="229dp"
-        android:layout_height="203dp"
-        android:layout_marginBottom="232dp"
+        android:layout_width="231dp"
+        android:layout_height="404dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt"
-        app:layout_constraintVertical_bias="0.779"
-        app:srcCompat="@drawable/batman_logo" />
+        app:srcCompat="@drawable/batman" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
